@@ -17,6 +17,7 @@
 	
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	
+	<link rel="stylesheet" href="assets/css/flexboxgrid.css" />
 	<link rel="stylesheet" href="assets/css/reset.css" />
 	<link rel="stylesheet" href="assets/css/main.css" />
 	<link rel="stylesheet" href="assets/css/fonts.css" />
@@ -31,73 +32,53 @@
 <body>
 
 <header class="prime">
-	
 	<h1 class="prime">Pattern Library</h1>
-	
 	<nav class="prime"></nav>
-	
 </header>
 
-<article id="logo">
-		
+<h1>Flexbox Grid</h1>
+<div class="row">
+	
+</div>
+	
+	
+	
+	
+<div class="row">
 	<h1>Logo</h1>
-	
 	<section id="main-logo">
-	
 		<h2>Main Logo</h2>
-		
 		<div class="sample">
-			
 			<img src="assets/img/logo.png" alt="A Simple Pattern Library">
-			
 		</div>
-		
 	</section>
-
-<article id="lists">
-		
+</div>
+<div class="row">
 	<h1>Titles</h1>
-	
 	<section id="main-title">
-	
 		<h2>Main Title</h2>
-		
 		<div class="sample">
-			
 			<h1 class="main-title">A Top of Page Title</h1>
-			
 		</div>
-		
 	</section>
-	
 	<section id="sub-titles">
-	
 		<h2>Sub Titles</h2>
-		
 		<div class="sample">
-			
 			<h2>Second-level Title</h2>
 			<h3>Third-level Title</h3>
 			<h4>Fourth-level Title</h4>
 			<h5>Fifth-level Title</h5>
 			<h6>Sixth-level Title</h6>
-			
 		</div>
-		
 	</section>
+</div>
 
-</article>
-
-<article id="lists">
-		
+<div class="row">
+	<div class="col-xs">
 	<h1>Lists</h1>
-	
 	<section id="simple-list">
-	
 		<h2>Simple List</h2>
-		
 		<div class="sample">
-			
 			<ul>
 				<li>Item 1</li>
 				<li>Item 2</li>
@@ -105,17 +86,13 @@
 				<li>Item 4</li>
 				<li>Item 5</li>
 			</ul>
-			
 		</div>
-		
 	</section>
-	
+	</div>
+	<div class="col-xs">
 	<section id="numbered-list">
-	
 		<h2>Numbered List</h2>
-		
 		<div class="sample">
-			
 			<ol>
 				<li>Item 1</li>
 				<li>Item 2</li>
@@ -123,51 +100,19 @@
 				<li>Item 4</li>
 				<li>Item 5</li>
 			</ol>
-			
 		</div>
-		
 	</section>
+	</div>
+</div>
 
-</article>
-
-<article id="misc">
-		
-	<h1>Miscellaneous Components</h1>
+<footer>
 	
-	<section id="responsive-image">
-
-	</section>
-
-</article>
-
-<footer class="prime">
-
-	<small>A Simple Pattern Library by <a href="http://github.com/murtaugh">Tim Murtaugh</a> (<a href="http://twitter.com/murtaugh">@murtaugh</a>). Free to use.</small>
-
 </footer>
 
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 <script>window.jQuery || document.write("<script src='assets/js/libs/jquery-1.11.0.min.js'>\x3C/script>")</script>
 
 <script src="assets/js/functions.js"></script>
-
-<!-- Asynchronous google analytics; this is the official snippet.
-	 Replace UA-XXXXXX-XX with your site's ID and uncomment to enable.
-	 
-<script>
-
-  var _gaq = _gaq || [];
-  _gaq.push(['_setAccount', 'UA-XXXXXX-XX']);
-  _gaq.push(['_trackPageview']);
-
-  (function() {
-	var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-	ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-	var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-  })();
-
-</script>
--->
   
 </body>
 </html>
