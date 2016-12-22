@@ -40,23 +40,25 @@
 	
 </div>
 -->	
-		
-<div class="row">
-	<h1>Logo</h1>
+
+<h1>Logo</h1>
+<div class="row" id="logo">
 	<div class="sample">
 		<img src="assets/img/BahaiFaithwithStar.png" alt="Baha'i Faith">
 	</div>
 </div>
-<div class="row">
-	<h1>Images</h1>
+	
+<h1>Images</h1>
+<div class="row" id="images">
 	<div class="sample">
 		<img src="assets/img/9pointedstar.png" alt="Nine Pointed Star">
 		<img src="assets/img/OCSHeartSign.png" alt="Baha'i Fund">
 		<img src="assets/img/brand-full.png" alt="Baha'i Faith with nine pointed star">
 	</div>
-</div>	
-<div class="row">
-	<h1>Titles</h1>
+</div>
+
+<h1>Headings</h1>
+<div class="row" id="headings">
 	<div class="sample">
 		<h1 class="main-title">Page Header</h1>
 		<h2>Heading 2</h2>
@@ -67,8 +69,8 @@
 	</div>
 </div>
 
-<div class="row">
-	<h1>Lists</h1>
+<h1>Lists</h1>
+<div class="row" id="lists">
 	<div class="col-xs">
 		<h2>Simple List</h2>
 		<div class="sample">
@@ -95,36 +97,32 @@
 	</div>
 </div>
 
-<footer class="col-xs-show-center">
-  <div class="row">
-    <div class="col-sm-4 col-xs-hide text-start">
-      <p>Bahá'í National Center<br/>
-      1233 Central Street<br/>
-      Evanston IL, 60201<br/>
-      <a href="tel:18477333400">(847) 733-3400</a><br/><br/>
-      </p>
-    </div>
-    <div class="col-sm-4 col-xs-12 center-xs footer-center">
-      {% if not user.is_authenticated %} 
-      <a href="http://www.bahai.us/fund">
-          <img src="assets/img/OCSHeartSign.png">
-          <h4>Brought to you by the<br>National Bahá'í Fund</h4>
-      </a>
-      {% else %}
-          <img src="assets/img//brand-full.png">
-      {% endif %}
-    </div>
-    <div class="col-sm-4 col-xs-hide text-end">
-      <p>Bahá'í House of Worship<br/>
-      100 Linden Ave<br/>
-      Wilmette, IL 60091<br/>
-      <a href="tel:18478532300">(847) 853-2300</a><br/><br/> 
-      </p>
-    </div>
-  </div>
-  <div class="row center-xs copyright">
-    &copy; {% now "Y" %} National Spiritual Assembly of the Bahá'ís&nbsp;of&nbsp;the&nbsp;United&nbsp;States &nbsp;<a href="#">Terms &amp; Conditions</a>&nbsp;|&nbsp;<a href="#">Privacy Policy</a>
-  </div>
+<footer>
+ 	<div class="row">
+		<div class="col-xs text-start">
+	      		<p>Bahá'í National Center<br/>
+	      		1233 Central Street<br/>
+	      		Evanston IL, 60201<br/>
+	      		<a href="tel:18477333400">(847) 733-3400</a><br/><br/>
+			</p>
+		</div>
+		<div class="col-xs center-xs footer-center">
+			<a href="http://www.bahai.us/fund">
+				<img src="assets/img/OCSHeartSign.png">
+				<h4>Brought to you by the<br>National Bahá'í Fund</h4>
+			</a>
+		</div>
+		<div class="col-xs text-end">
+			<p>Bahá'í House of Worship<br/>
+			100 Linden Ave<br/>
+			Wilmette, IL 60091<br/>
+			<a href="tel:18478532300">(847) 853-2300</a><br/><br/> 
+			</p>
+		</div>
+	</div>
+	<div class="row center-xs copyright">
+	&copy; {% now "Y" %} National Spiritual Assembly of the Bahá'ís&nbsp;of&nbsp;the&nbsp;United&nbsp;States &nbsp;<a href="#">Terms &amp; Conditions</a>&nbsp;|&nbsp;<a href="#">Privacy Policy</a>
+	</div>
 </footer>
 
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
