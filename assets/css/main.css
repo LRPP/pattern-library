@@ -22,3 +22,7 @@ footer {
   min-width: 100%;
   min-height: 100%;
   overflow: hidden; }
+
+.copyright {
+  font-size: 0.9em;
+  padding: 10px; }

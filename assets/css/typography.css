@@ -48,17 +48,17 @@ p {
   font-style: italic; }
 
 a {
+  text-decoration: none;
   font-family: "Proxima Nova", "Helvetica Neue", Arial, sans-serif;
   color: #202020;
   font-size: 1em;
   line-height: 1.5em;
-  color: #1C668C;
-  text-decoration: none; }
+  color: #1C668C; }
 
 footer a, p {
   color: #FCFCFC; }
 
-navbar a, p {
+.navbar a, p {
   color: #FCFCFC; }
 
 ul, ol {
