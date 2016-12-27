@@ -1,4 +1,12 @@
 @charset "UTF-8";
+nav-bar {
+  background-color: #4C413B;
+  padding: 10px; }
+
+footer {
+  background-color: #4C413B;
+  padding: 10px; }
+
 header.prime {
   position: fixed;
   top: 0;
