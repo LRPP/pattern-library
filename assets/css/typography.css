@@ -53,12 +53,12 @@ a {
   font-size: 1em;
   line-height: 1.5em;
   color: #1C668C;
-    color-text-decoration: none; }
+  text-decoration: none; }
 
-a.footer, a.navbar {
+footer a, p {
   color: #FCFCFC; }
 
-p.footer, p.navbar {
+navbar a, p {
   color: #FCFCFC; }
 
 ul, ol {
