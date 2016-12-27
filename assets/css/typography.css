@@ -55,7 +55,7 @@ a {
   color: #1C668C;
     color-text-decoration: none; }
 
-a .footer, p .footer {
+a footer, a .navbar, p footer, p .navbar {
   color: #FCFCFC; }
 
 ul, ol {
