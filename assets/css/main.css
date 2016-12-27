@@ -7,6 +7,11 @@ footer {
   background-color: #4C413B;
   padding: 10px; }
 
+mainarea {
+  background-color: #FCFCFC;
+  padding: 10px;
+  width: 80%; }
+
 header.prime {
   position: fixed;
   top: 0;
