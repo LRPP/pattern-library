@@ -10,3 +10,9 @@ footer {
 .mainarea {
   background-color: #FCFCFC;
   padding: 10px; }
+
+.logo {
+  height: 50px;
+  flex-shrink: 0;
+  min-width: 100%;
+  min-height: 100%; }
