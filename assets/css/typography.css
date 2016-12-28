@@ -55,9 +55,15 @@ a {
   line-height: 1.5em;
   color: #1C668C; }
 
-.contrast {
+.pcontrast {
   font-family: "Proxima Nova", "Helvetica Neue", Arial, sans-serif;
   color: #EFE7DE;
+  font-size: 1em;
+  line-height: 1.5em; }
+
+.acontrast {
+  font-family: "Proxima Nova", "Helvetica Neue", Arial, sans-serif;
+  color: #DEEAEF;
   font-size: 1em;
   line-height: 1.5em; }
 
