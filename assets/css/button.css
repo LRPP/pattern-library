@@ -44,6 +44,26 @@
   -webkit-tap-highlight-color: transparent;
 }
 
+.info{
+  background: #1C668C;
+  color: #FCFCFC
+}
+.success{
+  background: #3F7F33;
+  color: #FCFCFC
+}
+.warning{
+  background: #8C3838;
+  color: #202020
+}
+.danger{
+  background: #D8CD4B;
+  color: #FCFCFC
+}
+.unavailable{
+  background: #656660;
+  color: #FCFCFC
+}
 
 /*******************************
             States
