@@ -20,8 +20,6 @@
   outline: none;
   border: none;
   vertical-align: baseline;
-  background: #E0E1E2 none;
-  color: rgba(0, 0, 0, 0.6);
   font-family: 'Proxima Nova', 'Helvetica Neue', Arial, sans-serif;
   margin: 0em 0.25em 0em 0em;
   padding: 0.78571429em 1.5em 0.78571429em;
@@ -53,11 +51,11 @@
   color: #FCFCFC
 }
 .warning{
-  background-color: #8C3838;
+  background-color: #D8CD4B;
   color: #202020
 }
 .danger{
-  background-color: #D8CD4B;
+  background-color: #8C3838;
   color: #FCFCFC
 }
 .unavailable{
