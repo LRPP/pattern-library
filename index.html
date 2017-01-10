@@ -21,6 +21,8 @@
 	<link rel="stylesheet" href="assets/css/flexboxgrid.css" />
 	<link rel="stylesheet" href="assets/css/main.css" />
 	<link rel="stylesheet" href="assets/css/typography.css" />
+	<link rel="stylesheet" href="assets/css/button.css" />
+	<link rel="stylesheet" href="assets/css/input.css" />
 	
 	<script src="assets/js/libs/prefixfree.min.js"></script>
 	
@@ -30,62 +32,93 @@
 
 <body>
 
-<div class="row">
-	<div class="col-xs">
-		<h5>Menu</h5>
+<div class="row navbar middle-xs">
+	<div class="col-xs start-xs">
+		<p class="pcontrast">Menu</p>
 	</div>
-	<div class="col-xs">
-		<a href="#"><img src="assets/img/BahaiFaithwithStar.png" alt="Baha'i Faith"></a>
+	<div class="col-xs center-xs">
+		<a href="#"><span class="starlogo"></span></a>
 	</div>
-	<div class="col-xs">
+	<div class="col-xs end-xs">
 		<input class="col-sm-hide" type="text" name="query" placeholder="Search"/>
-		<span class="register col-xs-hide"><a href="#">Login</a> | <a href="#">Register</a></span>
+		<span class="register col-xs-hide"><a class="acontrast" href="#">Login</a> | <a class="acontrast" href="#">Register</a></span>
 	</div>
 </div>
 
-<header class="prime">
+<!--<header class="prime">
 	<h1 class="prime">Pattern Library</h1>
 	<nav class="prime"></nav>
 </header>
-<!--
+
 <h1>Flexbox Grid</h1>
 <div class="row">
 	
 </div>
 -->	
+<div class="mainarea">
 
-<h1>Logo</h1>
-<div class="row" id="logo">
-	<div>
-		<img src="assets/img/BahaiFaithwithStar.png" alt="Baha'i Faith">
+
+<h4>Grid</h4>
+<div class="row" id="grid">
+	<div class="col-sm">
+	<p>The grid system used is Flexbox Grid. You can view the documentation by visiting their website: <a href="http://flexboxgrid.com">Flexbox Grid</a></p>
 	</div>
 </div>
 	
-<h1>Images</h1>
-<div class="row" id="images">
-	<div>
-		<img src="assets/img/9pointedstar.png" alt="Nine Pointed Star">
-		<img src="assets/img/OCSHeartSign.png" alt="Baha'i Fund">
-		<img src="assets/img/brand-full.png" alt="Baha'i Faith with nine pointed star">
-	</div>
-</div>
-
-<h1>Headings</h1>
+<hr>
+	
+	
+<h4>Typography</h4>
 <div class="row" id="headings">
-	<div>
-		<h1 class="main-title">Page Header</h1>
+	<div class="col-sm">
+	<p>The font used for Headings is Crimson Text. Georgia, Times New Roman, and serif are the fall backs. The font used for all other text is Proxima Nova. Helvetica Neue, Arial and sans-serif are the fall backs. The base font size is 16 px.</p>
+		<h1>Heading 1</h1>
 		<h2>Heading 2</h2>
 		<h3>Heading 3</h3>
 		<h4>Heading 4</h4>
 		<h5>Heading 5</h5>
 		<h6>Heading 6</h6>
+
+		<p>paragraph</p>
+		<a href="#">link</a>
+		<p class="quote">quote</p>
 	</div>
 </div>
+	
+<hr>
 
-<h1>Lists</h1>
+<h4>Buttons</h4>
+<div class="row" id="buttons">
+	<div class="col-sm">
+	<p></p>
+		<button class="ui button info">Info</button>
+		<button class="ui button success">Success</button>
+		<button class="ui button warning">Warning</button>
+		<button class="ui button danger">Danger</button>
+		<button class="ui button unavailable">Unavailable</button>
+	</div>
+</div>
+	
+<hr>
+
+<h4>Inputs</h4>
+<div class="row" id="inputs">
+	<div class="col-sm">
+	<p></p>
+	<form>
+  		First name: <input class="ui input" type="text" name="fname"><br>
+ 		Last name: <input class="ui input" type="text" name="lname"><br>
+  		<input class="ui intput" type="submit" value="Submit">
+	</form>
+	</div>
+</div>
+	
+<hr>
+	
+<h4>Lists</h4>
 <div class="row" id="lists">
 	<div class="col-xs">
-		<h2>Simple List</h2>
+		<h5>Simple List</h5>
 		<div>
 			<ul>
 				<li>Item 1</li>
@@ -97,7 +130,7 @@
 		</div>
 	</div>
 	<div class="col-xs">
-		<h2>Numbered List</h2>
+		<h5>Numbered List</h5>
 		<div>
 			<ol>
 				<li>Item 1</li>
@@ -109,15 +142,30 @@
 		</div>
 	</div>
 </div>
-
+<hr>	
+<h4>Images</h4>
+<div class="row around-xs" id="images">
+	<div class="col-xs center-xs">
+		<img src="assets/img/9pointedstar.png" alt="Nine Pointed Star">
+	</div>
+	<div class="col-xs center-xs">
+		<img src="assets/img/OCSHeartSign.png" alt="Baha'i Fund">
+	</div>
+	<div class="col-xs center-xs">
+		<img src="assets/img/brand-full.png" alt="Baha'i Faith with nine pointed star">
+	</div>
+</div>
+</div>
+	
+<h4>Footer when signed in</h4>
 <footer>
  	<div class="row">
-		<div class="col-xs text-start">
-	      		<p>Bahá'í National Center<br/>
+		<div class="col-xs start-xs">
+	      		<p class="pcontrast">Bahá'í National Center<br/>
 	      		1233 Central Street<br/>
 	      		Evanston IL, 60201<br/>
-	      		<a href="tel:18477333400">(847) 733-3400</a><br/><br/>
 			</p>
+	      		<a class="acontrast" href="tel:18477333400">(847) 733-3400</a>
 		</div>
 		<div class="col-xs center-xs footer-center">
 			<a href="http://www.bahai.us/fund">
@@ -125,19 +173,45 @@
 				<h4>Brought to you by the<br>National Bahá'í Fund</h4>
 			</a>
 		</div>
-		<div class="col-xs text-end">
-			<p>Bahá'í House of Worship<br/>
+		<div class="col-xs end-xs">
+			<p class="pcontrast">Bahá'í House of Worship<br/>
 			100 Linden Ave<br/>
 			Wilmette, IL 60091<br/>
-			<a href="tel:18478532300">(847) 853-2300</a><br/><br/> 
 			</p>
+			<a class="acontrast" href="tel:18478532300">(847) 853-2300</a>
 		</div>
 	</div>
-	<div class="row center-xs copyright">
-	&copy; {% now "Y" %} National Spiritual Assembly of the Bahá'ís&nbsp;of&nbsp;the&nbsp;United&nbsp;States &nbsp;<a href="#">Terms &amp; Conditions</a>&nbsp;|&nbsp;<a href="#">Privacy Policy</a>
+	<div class="row center-xs middle-xs copyright">
+	&copy; 2017 National Spiritual Assembly of the Bahá'ís of the United States
 	</div>
 </footer>
-
+<br/>
+<h4>Footer when not signed in</h4>
+<footer>
+ 	<div class="row">
+		<div class="col-xs start-xs">
+			<p class="pcontrast">Bahá'í National Center<br/>
+	      		1233 Central Street<br/>
+	      		Evanston IL, 60201<br/>
+			</p>
+	      		<a class="acontrast" href="tel:18477333400">(847) 733-3400</a>
+		</div>
+		<div class="col-xs center-xs footer-center">
+			<img src="assets/img/brand-full.png" alt="Baha'i Faith with nine pointed star">
+		</div>
+		<div class="col-xs end-xs">
+			<p class="pcontrast">Bahá'í House of Worship<br/>
+			100 Linden Ave<br/>
+			Wilmette, IL 60091<br/>
+			</p>
+			<a class="acontrast" href="tel:18478532300">(847) 853-2300</a>
+		</div>
+	</div>
+	<div class="row center-xs middle-xs">
+	<p class="copyright pcontrast">&copy; 2017 National Spiritual Assembly of the Bahá'ís of the United States</p>
+	</div>
+</footer>
+	
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 <script>window.jQuery || document.write("<script src='assets/js/libs/jquery-1.11.0.min.js'>\x3C/script>")</script>
 
