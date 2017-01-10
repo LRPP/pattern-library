@@ -1,83 +1,36 @@
 
-$main-color: #FCFCFC;
-$secondary-color: #DEDEDC;
-$nav-color: #4C413B;
+$main-color: #FCFCFC
+$secondary-color: #DEDEDC
+$nav-color: #4C413B
 
+.navbar
+	background-color: $nav-color
+	padding: 20px
+	max-height: 60px
 
-header.prime
-	position: fixed;
-	top: 0;
-	left: 0;
-	width: 20%;
-	height: 100%;
-	background: $main-color;
-	font-weight: 600;
-	overflow: auto;
+footer
+	background-color: $nav-color
+	padding: 20px
 
-nav.prime ol
-	list-style-type: none;
-	transform: translateX(-100%);
-	transition: transform 400ms ease-out;
+.mainarea
+	background-color: $main-color
+	padding: 10px
 
-body.activated nav.prime ol
-	margin: 0;
-	transform: translateX(0);
+@mixin logo($height, $imgurl, $position, $bgsize)
+  height: $height
+  background-image: url($imgurl)
+  background-repeat: no-repeat
+  background-position: $position
+  background-size: $bgsize
+  position: relative
+  display: flex
+  min-width: 100%
+  min-height: 100%
+  overflow: hidden
 
-nav.prime ol li
-	font-size: 14px;
-	border-bottom: 1px solid #555;
+.starlogo
+  @include logo (50px, "/pattern-library/assets/img/BahaiFaithwithStar.png", center, 200px 40px)
 
-nav.prime ol li a
-	display: block;
-	padding: .5em 1em;
-	text-decoration: none;
-	color: #fff;
-
-nav.prime ol li.sub a
-	color: #ccc;
-
-nav.prime ol li.sub a:before
-	content: '· ';
-
-nav.prime ol li.active,
-nav.prime ol li:hover
-	background: #999;
-
-nav.prime ol li.active a,
-nav.prime ol li:hover a
-	color: #fff;
-
-div.sample
-	background: #FCFCFC;
-	padding: 2em 0;
-	border-top-right-radius: 6px;
-	border-top-left-radius: 6px;
-	text-align: center;
-
-pre.sample
-	margin-top: -.2em;
-	resize: none;
-	display: block;
-	width: 100%;
-	padding: 1em;
-	font-family: monospace;
-	background: transparent;
-	border: 0;
-	background: #ccc;
-	border-bottom-right-radius: 6px;
-	border-bottom-left-radius: 6px;
-
-pre.sample:focus
-	background: #fff;
-
-pre.sample span.comment
-	color: #499152;
-	font-style: italic;
-
-[data-demoable] {cursor: pointer;}
-
-
-@media screen and (max-width: 680px)
-	nav.prime
-		display: none;
-
+.copyright
+	font-size: 0.9em
+	padding: 10px
