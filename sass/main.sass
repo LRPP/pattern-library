@@ -8,6 +8,18 @@ $main-color: #FCFCFC
 $secondary-color: #DEDEDC
 $nav-color: #4C413B
 
+@mixin logo($height, $imgurl, $position, $bgsize)
+	height: $height
+	background-image: url($imgurl)
+	background-repeat: no-repeat
+	background-position: $position
+	background-size: $bgsize
+	position: relative
+	display: flex
+	min-width: 100%
+	min-height: 100%
+	overflow: hidden
+
 .navbar 
 	background-color: #4C413B
 	padding: 20px
@@ -27,6 +39,9 @@ section
 	box-shadow: 0 0 1em $nav-color
 	border-radius: 0.5em
 
+.starlogo
+	@include logo(50px, "/pattern-library/img/9pointedstar.png", center, 200px 40px)
+
 @media only screen and (min-width: 48em)
 	section
 		margin: 15px 20px
@@ -34,29 +49,18 @@ section
 @media only screen and (min-width: 62em)
 	section
 		margin: 15px 20px
+	.starlogo
+		@include logo(50px, "/pattern-library/img/BahaiFaithwithStar.png", center, 200px 40px)
 
 @media only screen and (min-width: 75em)
 	section
 		margin: 15px 30px
+	.starlogo
+		@include logo(50px, "/pattern-library/img/BahaiFaithwithStar.png", center, 200px 40px)
 
 footer 
 	background-color: #4C413B
 	padding: 20px 
-
-@mixin logo($height, $imgurl, $position, $bgsize)
-	height: $height
-	background-image: url($imgurl)
-	background-repeat: no-repeat
-	background-position: $position
-	background-size: $bgsize
-	position: relative
-	display: flex
-	min-width: 100%
-	min-height: 100%
-	overflow: hidden 
-
-.starlogo
-	@include logo(50px, "/pattern-library/img/BahaiFaithwithStar.png", center, 200px 40px)
 
 .copyright 
 	font-size: 0.9em

@@ -255,6 +255,11 @@
     order: 1;
 }
 
+.sm-show {
+    display: flex;
+    justify-content: flex-end;
+}
+
 @media only screen and (min-width: 48em) {
     .row {
         margin-right: -1rem;
@@ -460,6 +465,9 @@
     .container {
         width: 61rem;
     }
+    .sm-hide {
+        display: none
+    }
     .col-md,
     .col-md-1,
     .col-md-2,
@@ -656,6 +664,9 @@
     }
     .container {
         width: 71rem;
+    }
+    .sm-hide {
+        display: none
     }
     .col-lg,
     .col-lg-1,
