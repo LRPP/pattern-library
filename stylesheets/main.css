@@ -94,7 +94,7 @@ h4 {
   font-family: "Crimson Text", Georgia, "Times New Roman", serif;
   font-color: #5E5E5E;
   font-size: 2em;
-  line-height: 1.2em;
+  line-height: 1.4em;
 }
 
 /* line 31, ../sass/_typography.sass */
@@ -188,19 +188,37 @@ main {
 /* line 23, ../sass/main.sass */
 section {
   background-color: #FCFCFC;
-  margin: 10px 30px;
+  margin: 15px 10px;
   padding: 10px;
   box-shadow: 0 0 1em #4C413B;
   border-radius: 0.5em;
 }
 
-/* line 30, ../sass/main.sass */
+@media only screen and (min-width: 48em) {
+  /* line 31, ../sass/main.sass */
+  section {
+    margin: 15px 20px;
+  }
+}
+@media only screen and (min-width: 62em) {
+  /* line 35, ../sass/main.sass */
+  section {
+    margin: 15px 20px;
+  }
+}
+@media only screen and (min-width: 75em) {
+  /* line 39, ../sass/main.sass */
+  section {
+    margin: 15px 30px;
+  }
+}
+/* line 42, ../sass/main.sass */
 footer {
   background-color: #4C413B;
   padding: 20px;
 }
 
-/* line 46, ../sass/main.sass */
+/* line 58, ../sass/main.sass */
 .starlogo {
   height: 50px;
   background-image: url("/pattern-library/img/BahaiFaithwithStar.png");
@@ -214,7 +232,7 @@ footer {
   overflow: hidden;
 }
 
-/* line 49, ../sass/main.sass */
+/* line 61, ../sass/main.sass */
 .copyright {
   font-size: 0.9em;
   padding: 10px;
