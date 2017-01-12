@@ -19,8 +19,6 @@
     -webkit-flex-wrap: wrap;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
-    margin-right: -1rem;
-    margin-left: -1rem;
 }
 
 .row.reverse {
@@ -52,8 +50,6 @@
     -webkit-flex: 0 0 auto;
     -ms-flex: 0 0 auto;
     flex: 0 0 auto;
-    padding-right: 1rem;
-    padding-left: 1rem;
 }
 
 .col-xs {
@@ -282,8 +278,6 @@
         -webkit-flex: 0 0 auto;
         -ms-flex: 0 0 auto;
         flex: 0 0 auto;
-        padding-right: 1rem;
-        padding-left: 1rem;
     }
     .col-sm {
         -webkit-flex-grow: 1;
@@ -479,8 +473,6 @@
         -webkit-flex: 0 0 auto;
         -ms-flex: 0 0 auto;
         flex: 0 0 auto;
-        padding-right: 1rem;
-        padding-left: 1rem;
     }
     .col-md {
         -webkit-flex-grow: 1;
