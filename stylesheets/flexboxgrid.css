@@ -19,6 +19,8 @@
     -webkit-flex-wrap: wrap;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
+    margin-right: -1rem;
+    margin-left: -1rem;
 }
 
 .row.reverse {
@@ -453,7 +455,7 @@
 }
 
 @media only screen and (min-width: 62em) {
-    .row {
+    .content {
         margin-right: -1rem;
         margin-left: -1rem;
     }

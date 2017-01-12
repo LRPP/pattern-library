@@ -225,18 +225,23 @@ footer {
 }
 
 /* line 55, ../sass/main.sass */
+.downloads {
+  margin-right: 0;
+}
+
+/* line 58, ../sass/main.sass */
 .copyright {
   font-size: 0.9em;
   padding: 10px;
 }
 
 @media only screen and (min-width: 48em) {
-  /* line 60, ../sass/main.sass */
+  /* line 63, ../sass/main.sass */
   section {
     margin: 15px 20px;
   }
 
-  /* line 62, ../sass/main.sass */
+  /* line 65, ../sass/main.sass */
   .starlogo {
     height: 50px;
     background-image: url("/pattern-library/img/BahaiFaithwithStar.png");
@@ -251,12 +256,12 @@ footer {
   }
 }
 @media only screen and (min-width: 62em) {
-  /* line 66, ../sass/main.sass */
+  /* line 69, ../sass/main.sass */
   section {
     margin: 15px 20px;
   }
 
-  /* line 68, ../sass/main.sass */
+  /* line 71, ../sass/main.sass */
   .starlogo {
     height: 50px;
     background-image: url("/pattern-library/img/BahaiFaithwithStar.png");
@@ -271,12 +276,12 @@ footer {
   }
 }
 @media only screen and (min-width: 75em) {
-  /* line 72, ../sass/main.sass */
+  /* line 75, ../sass/main.sass */
   section {
     margin: 15px 30px;
   }
 
-  /* line 74, ../sass/main.sass */
+  /* line 77, ../sass/main.sass */
   .starlogo {
     height: 50px;
     background-image: url("/pattern-library/img/BahaiFaithwithStar.png");
@@ -291,13 +296,13 @@ footer {
   }
 }
 @media only screen and (max-width: 48em) {
-  /* line 78, ../sass/main.sass */
+  /* line 81, ../sass/main.sass */
   .xs-hide {
     display: none;
   }
 }
 @media only screen and (max-width: 62em) {
-  /* line 82, ../sass/main.sass */
+  /* line 85, ../sass/main.sass */
   .sm-hide {
     display: none;
   }
