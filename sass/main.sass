@@ -49,6 +49,9 @@ footer
 .icon
 	padding: 5px
 
+.register
+	padding: 3px 0px 0px 10px
+
 .copyright 
 	font-size: 0.9em
 	padding: 10px 
@@ -57,9 +60,7 @@ footer
 	section
 		margin: 15px 20px
 	.starlogo
-		@include logo(50px, "/pattern-library/img/9pointedstar.png", center, 50px 50px)
-	.sm-hide
-		display: none
+		@include logo(50px, "/pattern-library/img/BahaiFaithwithStar.png", center, 200px 40px)
 
 @media only screen and (min-width: 62em) //tablets
 	section
@@ -72,4 +73,8 @@ footer
 		margin: 15px 30px
 	.starlogo
 		@include logo(50px, "/pattern-library/img/BahaiFaithwithStar.png", center, 200px 40px)
+
+@media only screen and (max-width: 48em)
+	.sm-hide
+		display: none
 
