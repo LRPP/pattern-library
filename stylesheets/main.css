@@ -300,5 +300,6 @@ footer {
   /* line 82, ../sass/main.sass */
   .sm-hide {
     display: none;
+    padding: 10px;
   }
 }
