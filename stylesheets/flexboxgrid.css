@@ -254,10 +254,6 @@
 }
 
 @media only screen and (min-width: 48em) {
-    .row {
-        margin-right: -1rem;
-        margin-left: -1rem;
-    }
     .container {
         width: 46rem;
     }
@@ -449,10 +445,6 @@
 }
 
 @media only screen and (min-width: 62em) {
-    .content {
-        margin-right: -1rem;
-        margin-left: -1rem;
-    }
     .container {
         width: 61rem;
     }
@@ -644,10 +636,6 @@
 }
 
 @media only screen and (min-width: 75em) {
-    .row {
-        margin-right: -1rem;
-        margin-left: -1rem;
-    }
     .container {
         width: 71rem;
     }
@@ -668,8 +656,6 @@
         -webkit-flex: 0 0 auto;
         -ms-flex: 0 0 auto;
         flex: 0 0 auto;
-        padding-right: 1rem;
-        padding-left: 1rem;
     }
     .col-lg {
         -webkit-flex-grow: 1;
