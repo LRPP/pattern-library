@@ -176,17 +176,25 @@ ul, ol {
 
 /* line 16, ../sass/main.sass */
 main {
-  background-color: #FCFCFC;
-  padding: 10px;
+  background-color: #DEDEDC;
+  padding: 20px;
 }
 
 /* line 20, ../sass/main.sass */
+section {
+  background-color: #FCFCFC;
+  margin: 50px;
+  box-shadow: 0 0 1em #4C413B;
+  border-radius: 0.5em;
+}
+
+/* line 26, ../sass/main.sass */
 footer {
   background-color: #4C413B;
   padding: 20px;
 }
 
-/* line 36, ../sass/main.sass */
+/* line 42, ../sass/main.sass */
 .starlogo {
   height: 50px;
   background-image: url("/pattern-library/img/BahaiFaithwithStar.png");
@@ -200,7 +208,7 @@ footer {
   overflow: hidden;
 }
 
-/* line 39, ../sass/main.sass */
+/* line 45, ../sass/main.sass */
 .copyright {
   font-size: 0.9em;
   padding: 10px;
