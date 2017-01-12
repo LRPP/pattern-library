@@ -263,9 +263,6 @@
     .container {
         width: 46rem;
     }
-    .sm-hide {
-        display: none
-    }
     .col-sm,
     .col-sm-1,
     .col-sm-2,
