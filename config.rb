@@ -18,3 +18,5 @@ javascripts_dir = "js"
 # line_comments = false
 
 preferred_syntax = :sass
+
+add_import_path "node_modules/foundation-sites/scss"

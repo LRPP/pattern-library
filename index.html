@@ -18,6 +18,7 @@
 
     <title>Pattern Library</title>
 
+    <link rel="stylesheet" href="stylesheets/foundation.css">
     <link rel="stylesheet" href="stylesheets/flexboxgrid.css" />
     <link rel="stylesheet" href="stylesheets/main.css" />
 
@@ -27,24 +28,20 @@
 </head>
 
 <body>
-
-    <nav class="row navbar middle-xs">
-        <div class="col-xs start-xs">
-            <span class="row middle-xs">
-                <img class="icon sm-hide" src="img/menu.png" alt="menu" height=18px>
-                <p class="pcontrast">Menu</p>
-            </span>
-        </div>
-        <div class="col-xs center-xs">
-            <a href="#"><span class="starlogo"></span></a>
-        </div>
-        <div class="col-xs">
-            <span class="row middle-xs end-xs xs-hide">
+    <nav class="top-bar">
+        <ul class="menu expanded">
+            <li>
+                <span><i class="fi-list"></i><p class="pcontrast">Menu</p></span>
+            </li>
+            <li><a href="#"><span class="starlogo"></span></a></li>
+            <li>
+                <span class="xs-hide">
                 <img class="icon" src="img/search.png" alt="search" height=18px>
                 <input type="text" name="query" placeholder="Search" />
                 <span class="register sm-hide"><a class="acontrast" href="#">Login</a> | <a class="acontrast" href="#">Register</a></span>
-            </span>
-        </div>
+                </span>
+            </li>
+        </ul>
     </nav>
 
     <header id="top">
@@ -54,11 +51,11 @@
     <main>
         <section id="">
             <div class="row">
-                <h4 class="col-xs start-xs container">Feast Message Title</h4>
+                <h4 class="col-xs start-xs">Feast Message Title</h4>
                 <h6 class="col-xs end-xs">12 January 2017</h6>
             </div>
             <div class="row">
-                <div class="col-xs container">
+                <div class="col-xs">
                     <p>We are pleased to make available online—in both PDF and MS Word formats—the National Spiritual Assembly's message for the Feast of Masá’il.</p>
                     <p>In addition, we are delighted to be able to provide Persian and Spanish translations, both of which are offered in PDF form­—with the Spanish translation also offered in MS Word format.</p>
                 </div>

@@ -1,8 +1,14 @@
-@import "compass"
 @import "compass/reset"
+@import "compass"
 @import "_typography.sass"
 @import "button.css"
 @import "input.css"
+@import 'settings'
+@import 'foundation'
+
+
+@include foundation-flex-classes
+@include foundation-flex-grid
 
 $main-color: #FCFCFC
 $secondary-color: #DEDEDC
@@ -19,6 +25,11 @@ $nav-color: #4C413B
 	min-width: 100%
 	min-height: 100%
 	overflow: hidden
+
+nav 
+	background-color: #4C413B
+	padding: 20px
+	max-height: 60px 
 
 header
 	padding: 30px
@@ -37,11 +48,6 @@ section
 footer 
 	background-color: #4C413B
 	padding: 20px 
-
-.navbar 
-	background-color: #4C413B
-	padding: 20px
-	max-height: 60px 
 
 .starlogo
 	@include logo(50px, "/pattern-library/img/9pointedstar.png", center, 50px 50px)
