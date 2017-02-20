@@ -5,7 +5,7 @@
     padding-left: 2rem;
 }
 
-.row {
+.flexrow {
     box-sizing: border-box;
     display: -webkit-flex;
     display: -ms-flexbox;

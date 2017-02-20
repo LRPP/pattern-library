@@ -18,33 +18,36 @@
 
     <title>Pattern Library</title>
 
-    <link rel="stylesheet" href="stylesheets/foundation.css">
     <link rel="stylesheet" href="stylesheets/flexboxgrid.css" />
+    <link rel="stylesheet" href="stylesheets/foundation-icons.css" />
     <link rel="stylesheet" href="stylesheets/main.css" />
 
-    <script src="js/libs/prefixfree.min.js"></script>
-    <script src="js/libs/modernizr-2.7.1.dev.js"></script>
+    <!-- <script src="js/libs/prefixfree.min.js"></script> -->
+    <!-- <script src="js/libs/modernizr-2.7.1.dev.js"></script> -->
 
 </head>
 
 <body>
-    <nav class="top-bar">
-        <ul class="menu expanded">
-            <li>
-                <span><i class="fi-list"></i><p class="pcontrast">Menu</p></span>
-            </li>
-            <li><a href="#"><span class="starlogo"></span></a></li>
-            <li>
-                <span class="xs-hide">
-                <img class="icon" src="img/search.png" alt="search" height=18px>
-                <input type="text" name="query" placeholder="Search" />
-                <span class="register sm-hide"><a class="acontrast" href="#">Login</a> | <a class="acontrast" href="#">Register</a></span>
-                </span>
-            </li>
-        </ul>
+    <nav class="row menu expanded middle-xs">
+        <span class="col-xs start-xs">
+            <div class="row middle-xs">
+                <span class="icon fi-list"></span>
+        <p class="pcontrast">Menu</p>
+        </div>
+        </span>
+        <div class="col-xs center-xs">
+            <a href="#"><span class="starlogo"></span></a>
+        </div>
+        <div class="col-xs">
+            <div class="row middle-xs end-xs xs-hide">
+                <span class="col-xs icon fi-magnifying-glass"></span>
+                <input type="text" name="query" placeholder="Search" class="col-xs search" />
+                <span class="col-xs center-xs register sm-hide"><a class="acontrast" href="#">Login</a> | <a class="acontrast" href="#">Register</a></span>
+            </div>
+        </div>
     </nav>
 
-    <header id="top">
+    <header id="">
         <h1>Pattern Library</h1>
     </header>
 
@@ -210,10 +213,10 @@
         </div>
     </footer>
 
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-    <script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    <!--<script>
         window.jQuery || document.write("<script src='js/libs/jquery-1.11.0.min.js'>\x3C/script>")
-    </script>
+    </script>-->
 
     <script src="js/functions.js"></script>
 
